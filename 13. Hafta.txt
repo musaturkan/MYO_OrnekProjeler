@@ -1,0 +1,6 @@
+Setup dosyası oluşturmak
+Aşağıdaki kaynaklardan sorumlusunuz. Bu kaynaklardan sorumlusunuz
+https://www.youtube.com/watch?v=S_NK1_AhvP4
+https://www-advancedinstaller-com.translate.goog/create-setup-exe-visual-studio.html?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc
+https://www.furkanpezek.com.tr/2019/09/c-setup-olusturma/
+https://learn.microsoft.com/en-us/answers/questions/1696798/how-to-create-with-visual-studio-a-deployment-for

@@ -1,0 +1,60 @@
+Bir form içinden başka bir forma veri göndermek
+Bir olaya bağlı bir metot yazmak
+Kütüphane metotları yazarak veri tabanı işlemlerini form içinden taşımak
+Diyalog formu ile çalışırken diyalog form kapatıldığında ana formu güncellemek
+Dinamik kontrolleri yan yana gelecek şekilde otomatik eklemek. FlowLayoutPanel kullanmak
+dinamik olarak buton oluşturmak ve butonları tab panel altına eklemek.
+Form içinde farklı metotlarda kullanılan nesneleri global değişken olarak bildirmek.
+Form içinde tekrar tekra yapılan işlemelri private bir metot içine alıp metot ile çağırmak
+Combobox kontrolü ilk yüklenirken selectedchanged olayında işlem yapılmaması için flag temelli bir kontrol yapmak
+İlişkili entity nesnelerinin tanımlanması, misafir anahtar alanların bildirimi
+DTO nesnesi kullanaka veri tabanından veri çekmek
+
+8.Hafta 
+Kullanıcı tanımlamak ve kullanıcının oturum ile işlemelrini yapmasını sağlamak
+Dosya okumak ve yazmak, json dosyasını okumak ve json formatında dosyaya veri yazmak
+Web servis kullanmak. Açık web servislerini ekleyip kullanmak
+Web servisine talep göndermek
+
+Web API Nedir?
+API: Application Programming Interface
+Yazılımların birbiriyle iletişim kurmasını sağlayan bir köprüdür. Web API internette çalışır ve internet olan her yerden erişilebilr şekilde hazırlanabilir.
+Web API sayesinde veriler bir servis üzerinden uygulamalarla paylaşılır.
+Çoğu web servis belli kullanıcı yetkileri ile çalışır. Servisi kullanabilmek için bir kullanıcı tanımlanması gerekir.
+Kullanıcı olmadan çalışan açık web servisler de bulunur.
+API istemci ile sunucu arasında bir iletişim kanalıdır.
+Web API'ler verileri JSON veya XML formatında paylaşırlar.
+Her web servisinin bir web adresi olur.
+
+XML Veri Örneği :xtenden markup language
+<Ogrenci>
+	<Ad>Ahmet</Ad>
+	<Soyad>Yılmaz</Soyad>
+	<TcKimlikNo>1457758</TcKimlikNo>
+</Ogrenci>
+
+json formatı: Java Script Object Notasyon
+
+"Ogrenci":{
+	Ad:Ahmet,
+	Soyad:Yılmaz,
+	TcKimlikNo:154878457,
+	Bolum:{Ad:Bilgisayar,BolumKodu:4343,Adres:Bilecik}
+}
+Neler Yaptık:
+Web servisten gelen verileri jsonserialize sınıfı  ile deserialize ederek nesneye dönüştürdük
+Servisten gelen verileri form üzerinde görüntüledik.
+Servis verilerin global değişkende saklayarak filtreleme için kullandık.
+httpclient sınıfını kullanarak web servisine get talebinin nasıl yapıldığını gördük.
+HttpClient sınıfının post metodunu kullanarak web apiye veri göndermek
+Post işlemi yaparken gönderilecek nesneyi jsona dönüştürdük ve bir content oluşturduk
+Content nesnesinin header alanına istenirse veri eklenebilir. Örnek veri ekledik.
+post metodu sonucunad dönen http status koduna göre işlemin sonucu kontrol edilebilir.
+HttpStatus kodu created ise veri başarıyla eklendi anlamına gelir.
+
+9.Hafta Konuları
+Oturum başlatmak
+Kullanıcı kontrolü yapmak
+Gerçek açık bir web servis ile çalışmak
+Github kullanmak, projeyi githubtan indirmek, github hesabına commit yapmak
+Git proje oluşturmak, commit yapmak, projeye kullanıcı eklemek

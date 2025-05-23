@@ -1,0 +1,6 @@
+
+Github kullanmak, projeyi githubtan indirmek, github hesabına commit yapmak
+Program kurulum dosyası hazırlamak, uygulamayı dağıtmak
+Parola alanlarını ve kritik verileri şifreli olarak saklamak
+Bileşen eklemek ve kullanmak
+Tasarım deseni uygulamak, dependency iversion, IoC container, repository pattern, MVC pattern
